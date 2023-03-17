@@ -60,7 +60,11 @@ void display() {                               // Prosedur untuk menampilkan has
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();                                    // Memanggil prosedur input()
+    unsorted();                                 // Memanggil Prosedur Unsorted()
+    bubbleSortArray();                          // Memanggil Prosedur bubbleSortArray()
+    display();                                  // Memanggil Prosedur display
+    return 0;
 }
 
 
